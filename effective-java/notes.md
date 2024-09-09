@@ -1,6 +1,5 @@
 source : https://www.youtube.com/watch?v=hSfylUXhpkA
 
-(9:24)
 
 Comparator :
 
@@ -48,3 +47,15 @@ Functionnal interfaces
     source du texte : https://www.geeksforgeeks.org/functional-interfaces-java/
 
 
+Lambda
+
+    Une lambda ne peut pas faire référence à elle-même (this fait référence à l'instance englobante)
+
+TreeSet
+
+    Un TreeSet permet de garder automatiquement des éléments dans un ordre trié (tri gardé lors d'un ajout ou suppression d'éléments).
+    Inconvenient : légèrement plus lent qu'un HashSet car maintien du tri + "null" non autorisé.
+
+    Il est possible de fournir un "Comparator" spécifique pour obtenir un tri personnalisé.
+
+    source : https://codegym.cc/fr/groups/posts/fr.1111.treeset-en-java 
