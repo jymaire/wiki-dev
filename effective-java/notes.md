@@ -1,6 +1,5 @@
 source : https://www.youtube.com/watch?v=hSfylUXhpkA
 
-(28:11)
 
 Comparator :
 
