@@ -6,3 +6,5 @@ Rest : `function addPonies(...ponies)`
 Spread : `const [winner, ...losers] = poniesInRace;`
 
 Passage d'un paramètre optionnel dans une fonction : mettre un point d'interrogation à la fin de son nom `function addPointsToScore(player: HasScore, points?: number): void {`
+
+Partial : si on veut créer une classe B à partir d'une classe A avec tous les attributs de A qui soient optionnels, on peut utiliser le type Partial de Typescript https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype 
