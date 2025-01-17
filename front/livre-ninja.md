@@ -19,3 +19,7 @@ Dans l'exemple suivant, `selected` est un attribut de la balise `option`. Dans c
 <option selected="false">apple</option> <!-- quand même sélectionné-->
 
 ```
+Les attributs sont liés à des éléments HTML (dans le code), par exemple un balise input. Puis, le navigateur va créer le DOM avec un noeud ici HTMLInputElement qui lui va avoir des propriétés. L'avantage de passer par les propriétés, c'est qu'on va mettre à jour le DOM. Une propriété est définie entre crochets [ ]. Par exemple, Angular permet de faire
+```
+<option [selected]="isSelected()" value="apple">Apple</option>
+```
