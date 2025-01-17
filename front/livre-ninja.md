@@ -12,3 +12,10 @@ Partial : si on veut créer une classe B à partir d'une classe A avec tous les 
 Les imports : les imports en tout début de fichier servent pour le code TS et les imports dans l'annotation @Component servent pour le template HTML (CommonModule à importer pour les fonctionnalités standards d'Angular) NB : l'import dans l'annotation @Component a besoin de l'import en haut du fichier TS.
 
 Signaux : considérer le contenu d'un Signal comme quelque chose d'immuable et bien utiliser la méthode "update" pour faire une mise à jour (et non pas "set") pour qu'Angular détecte bien qu'il y a eu un changement
+
+Dans l'exemple suivant, `selected` est un attribut de la balise `option`. Dans ce cas, la seule présence de l'attribut `selected` déclenchera son effet (peu importe si on lui affecte une valeur)
+```
+<option selected>apple</option>
+<option selected="false">apple</option> <!-- quand même sélectionné-->
+
+```
