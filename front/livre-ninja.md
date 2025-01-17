@@ -10,3 +10,5 @@ Passage d'un paramètre optionnel dans une fonction : mettre un point d'interrog
 Partial : si on veut créer une classe B à partir d'une classe A avec tous les attributs de A qui soient optionnels, on peut utiliser le type Partial de Typescript https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype 
 
 Les imports : les imports en tout début de fichier servent pour le code TS et les imports dans l'annotation @Component servent pour le template HTML (CommonModule à importer pour les fonctionnalités standards d'Angular)
+
+Signaux : considérer le contenu d'un Signal comme quelque chose d'immuable et bien utiliser la méthode "update" pour faire une mise à jour (et non pas "set") pour qu'Angular détecte bien qu'il y a eu un changement
