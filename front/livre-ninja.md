@@ -27,3 +27,9 @@ On peut aussi accéder à des propriétés de l'élément du DOM
 ```
 <option [style.color]="couleurTexte()" value="apple">Apple</option>
 ```
+
+NB : Angular utilise les propriétés sans les crochets ! donc les deux notations sont équivalentes dans un composant Angular
+```
+<ang-comp name="{{ person().name }}" />
+<ang-comp [name]="person().name" />
+```
