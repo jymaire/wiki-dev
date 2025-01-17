@@ -23,3 +23,7 @@ Les attributs sont liés à des éléments HTML (dans le code), par exemple un b
 ```
 <option [selected]="isSelected()" value="apple">Apple</option>
 ```
+On peut aussi accéder à des propriétés de l'élément du DOM
+```
+<option [style.color]="couleurTexte()" value="apple">Apple</option>
+```
