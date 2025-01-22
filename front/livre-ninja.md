@@ -33,3 +33,5 @@ NB : Angular utilise les propriétés sans les crochets ! donc les deux notation
 <ang-comp name="{{ person().name }}" />
 <ang-comp [name]="person().name" />
 ```
+
+Boucle for : il existe une annotation @empty pour gérer le cas d'une liste vide. Il existe les variables suivantes : $index (index élément courant), $first et $last (des booléens)
