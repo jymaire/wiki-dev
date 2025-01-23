@@ -1,15 +1,18 @@
-# Controleur
+# Couches
 
-Recevoir les données et les valider
+## Controleur
 
-# Service
+Gestion des accès, recevoir les données et les valider. Passe plat vers un service
+
+## Service
 
 Implémentation des règles métiers
 
-# Mapper
+## Mapper
 
-Transformation des données
+Transformation des données.
+Pas de logique métier dedans ou d'appels à des services/repositories !
 
-# Repository
+## Repository
 
 Interaction avec les sources de données
