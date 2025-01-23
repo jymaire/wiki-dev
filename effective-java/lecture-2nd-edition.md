@@ -10,3 +10,5 @@ Dans les constructeurs privés, on peut lancer une https://docs.oracle.com/javas
 Misc :
 
 Possibilité d'avoir des blocs de code qui s'exécutent soit au chargement de la classe, soit à son instantiation avec, respectivement, le static initializer blocl et l'instance initializer block https://www.baeldung.com/java-static-instance-initializer-blocks (un peu en mode "ngInit" d'Angular sans avoir à passer dans le constructeur, ce qui peut être utile en cas de multiples constructeurs ou de constructeur privé)
+
+On peut créer des Map avec des enumérations comme clé : EnumMap https://docs.oracle.com/javase/8/docs/api/java/util/EnumMap.html
