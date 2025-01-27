@@ -35,3 +35,11 @@ NB : Angular utilise les propriétés sans les crochets ! donc les deux notation
 ```
 
 Boucle for : il existe une annotation @empty pour gérer le cas d'une liste vide. Il existe les variables suivantes : $index (index élément courant), $first et $last (des booléens)
+
+Les inputs sont passés après que le composant soit construit donc pas possible de les lire dans le constructeur.
+
+ngOnChanges est appelé quand un input est modifié. En paramètre, on va avoir l'ancienne et la nouvelle valeur (ainsi qu'une méthode `isFirstChange()`)
+
+ngOnInit est appelé après le 1er appel de ngOnChanges.
+
+Un `effet` (signal de type `effect`) doit être créé dans le constructeur du composant (possible ailleurs mais plus complexe)
