@@ -43,3 +43,5 @@ ngOnChanges est appelé quand un input est modifié. En paramètre, on va avoir 
 ngOnInit est appelé après le 1er appel de ngOnChanges.
 
 Un `effet` (signal de type `effect`) doit être créé dans le constructeur du composant (possible ailleurs mais plus complexe)
+
+Un pipe async va gérer automatiquement la désouscription à un observable. On peut stocker le résultat dans une variable avec le mot clé `as` (par exemple : `@if (asyncUser | async; as user)`
