@@ -3,7 +3,7 @@
 Page 19 
 
 Compilation d'un fichier .py en .pyc (bytecode). 
-Fichiers .pyc stockés dans un repertoire __pycache__.
+Fichiers .pyc stockés dans un repertoire `__pycache__`.
 
 Si pas d'accès en écriture, alors stocké en mémoire.
 
