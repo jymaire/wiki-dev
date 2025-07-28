@@ -13,3 +13,6 @@ except Exception as e:
 
 
 Dans Pytest, rajouter -s pour voir les “print”
+
+
+`==` vérifie l'égalité alors que `is` compare l'adresse mémoire
