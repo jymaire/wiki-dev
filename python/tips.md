@@ -16,3 +16,10 @@ Dans Pytest, rajouter -s pour voir les “print”
 
 
 `==` vérifie l'égalité alors que `is` compare l'adresse mémoire
+
+
+-------------
+
+`any` permet de vérifier qu'il y a au moins un élément dans la liste qui est True
+
+`all`  permet de vérifier que tous les éléments de la liste sont True
