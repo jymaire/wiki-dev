@@ -23,3 +23,9 @@ Dans Pytest, rajouter -s pour voir les “print”
 `any` permet de vérifier qu'il y a au moins un élément dans la liste qui est True
 
 `all`  permet de vérifier que tous les éléments de la liste sont True
+
+-------------
+
+Pour faire comme un Map en Java pour extraire juste une propriété dans une liste : 
+
+`names = [client.name for client in clients]`
