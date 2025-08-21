@@ -14,6 +14,10 @@ except Exception as e:
 
 Dans Pytest, rajouter -s pour voir les “print”
 
+Dans une assertion, on peut rajouter un message en cas d'erreur avec notamment ce qu'on a comparé 
+
+` assert a == b,f"Assertion failed between {a} and {b}"`
+
 
 `==` vérifie l'égalité alors que `is` compare l'adresse mémoire
 
