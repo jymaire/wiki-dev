@@ -10,7 +10,6 @@ Puis ouvrir le fichier `http-client.cookies` pour rajouter des cookies (idéalem
 Un exemple avec une authentification
 
 ```
-
 POST http://localhost:8080/api/auth
 Content-Type: application/json
 
@@ -20,8 +19,6 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8080/api/auth/check
-
-
 
 ```
 
