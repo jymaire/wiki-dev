@@ -11,3 +11,7 @@ ne fonctionne pas, il faut utiliser un opérateur `and_`
 select(a)
 .where(and_(a.id == 1, a.name == 'n'))
 ```
+
+----------------
+
+`scalars().all()` pour récupérer des résultats propres
