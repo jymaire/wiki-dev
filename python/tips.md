@@ -34,3 +34,7 @@ Dans une assertion, on peut rajouter un message en cas d'erreur avec notamment c
 Pour faire comme un Map en Java pour extraire juste une propriété dans une liste : 
 
 `names = [client.name for client in clients]`
+
+-------------- 
+
+Fichier de type `pickle` pour sauvegarder des structures de données Python dans un fichier https://docs.python.org/3/library/pickle.html
