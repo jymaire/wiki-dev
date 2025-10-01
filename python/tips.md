@@ -13,7 +13,7 @@ except Exception as e:
 et parcourir exc_tb pour avoir la stack complète
 
 
-Dans Pytest, rajouter -s pour voir les “print”
+Dans Pytest, rajouter -s pour voir les “print”. On peut aussi utiliser "-k maRecherche" pour lancer tous les tests qui matchent "maRecherche".
 
 Dans une assertion, on peut rajouter un message en cas d'erreur avec notamment ce qu'on a comparé 
 
