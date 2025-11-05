@@ -39,6 +39,10 @@ Pour faire comme un Map en Java pour extraire juste une propriété dans une lis
 
 Fichier de type `pickle` pour sauvegarder des structures de données Python dans un fichier https://docs.python.org/3/library/pickle.html
 
+--------------
+
+On peut utiliser __slots__ pour optimiser la mémoire https://www.pythonmorsels.com/__slots__/
+
 ---------------
 
 On peut typer args et kwargs avec juste le type "contenu" https://adamj.eu/tech/2021/05/11/python-type-hints-args-and-kwargs/
