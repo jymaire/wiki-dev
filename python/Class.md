@@ -1,3 +1,18 @@
+# Généralités
+
+Pour instancier une classe avec paramètres (comme on aurait un constructeur avec des paramètres en Java), il faut ajouter des paramètres à la méthode `__init__`
+
+Exemple de https://docs.python.org/3/tutorial/classes.html#class-objects :
+```
+class Complex:
+    def __init__(self, realpart, imagpart):
+        self.r = realpart
+        self.i = imagpart
+
+x = Complex(3.0, -4.5)
+x.r, x.i
+```
+
 # Les méthodes
 
 On peut avoir 3 types de méthodes différentes :
