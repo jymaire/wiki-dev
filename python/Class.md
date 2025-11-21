@@ -13,6 +13,16 @@ x = Complex(3.0, -4.5)
 x.r, x.i
 ```
 
+Aussi étrange que ce soit, on peut rajouter des attributs à la volée à une classe.
+
+Suite de l'exemple (oui ceci fonctionne même si `counter` n'existe pas dans la classe `Complex` :
+```
+x.counter = 1
+while x.counter < 10:
+    x.counter = x.counter * 2
+print(x.counter)
+```
+
 # Les méthodes
 
 On peut avoir 3 types de méthodes différentes :
