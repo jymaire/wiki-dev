@@ -4,6 +4,10 @@
 
 avec `app.url_map` on peut trouver le endpoint associé à un appel HTTP. Puis à partir de ce nom de endpoint et `napp.view_functions.get('endpoint_name')` cela va donner le nom de la classe
 
+## Construire une URL à partir d'une fonction
+
+https://flask.palletsprojects.com/en/stable/quickstart/#url-building
+
 # Vocabulaire
 
 ## Routing
