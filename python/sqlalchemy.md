@@ -16,6 +16,8 @@ DBAPI est une interface pour interagir avec les BDD. C'est cette norme que les d
 
 Par défaut, une transaction est toujours en cours et un rollback est fait quand la connection est relachée. Il faut donc réaliser régulièrement des `commits`
 
+Si on utilise `engine.begin()` au lieu de `engine.connect()` ça va commiter automatiquement à la fin de la transaction si il n'y a pas eu d'erreur.
+
 
 # Tips
 
