@@ -1,4 +1,16 @@
+# Lecture doc
 
+https://docs.sqlalchemy.org/en/20/tutorial/index.html
+
+## Engine
+
+Le moteur est initialisé de manière lazy donc seulement à la première tâche demandée.
+
+`echo=True` en paramètre de `create_engine` permet de logguer toutes les instructions SQL
+
+source : https://docs.sqlalchemy.org/en/20/tutorial/engine.html
+
+# Tips
 
 ```
 select(a)
