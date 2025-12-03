@@ -10,6 +10,13 @@ Le moteur est initialisé de manière lazy donc seulement à la première tâche
 
 source : https://docs.sqlalchemy.org/en/20/tutorial/engine.html
 
+## DBAPI
+
+DBAPI est une interface pour interagir avec les BDD. C'est cette norme que les drivers de BDD vont devoir suivre.
+
+Par défaut, une transaction est toujours en cours et un rollback est fait quand la connection est relachée. Il faut donc réaliser régulièrement des `commits`
+
+
 # Tips
 
 ```
