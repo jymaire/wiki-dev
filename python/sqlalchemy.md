@@ -18,6 +18,22 @@ Par défaut, une transaction est toujours en cours et un rollback est fait quand
 
 Si on utilise `engine.begin()` au lieu de `engine.connect()` ça va commiter automatiquement à la fin de la transaction si il n'y a pas eu d'erreur.
 
+Un select retourne un `Result` https://docs.sqlalchemy.org/en/20/core/connections.html#sqlalchemy.engine.Result .
+Ce `Result` est un itérable qui contient des `Row` https://docs.sqlalchemy.org/en/20/core/connections.html#sqlalchemy.engine.Row .
+Ce `Row` se comporte comme des `named tuples` https://docs.python.org/3/library/collections.html#collections.namedtuple .
+
+La manière la plus "Pythonic" de lire les résultats est celle-là:
+
+```
+result = conn.execute(text("select x, y from some_table"))
+
+for x, y in result:
+    ...
+```
+Mais c'est loin d'être la seule manière de faire : https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactions.html#fetching-rows
+
+
+
 
 # Tips
 
