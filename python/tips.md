@@ -43,6 +43,25 @@ Fichier de type `pickle` pour sauvegarder des structures de données Python dans
 
 On peut utiliser __slots__ pour optimiser la mémoire https://www.pythonmorsels.com/__slots__/
 
+--------------
+
+On peut forcer l'utilisation de paramètres nommées en rajouter `*,` au début
+
+Par exemple
+
+```
+def get_name(*, id):
+```
+
+Ne pourra être appelé que 
+```
+get_name(id=1)
+```
+et pas
+
+```
+get_name(1)
+```
 ---------------
 
 On peut typer args et kwargs avec juste le type "contenu" https://adamj.eu/tech/2021/05/11/python-type-hints-args-and-kwargs/
