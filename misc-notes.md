@@ -11,6 +11,6 @@ Ne donner en paramètre que ce dont on a besoin
 
 ----
 
-Un "if" en début de fonction pour valider le code s'appelle une "guard claus"
+Un "if" en début de fonction pour valider le code s'appelle une "guard clause"
 
 https://en.wikipedia.org/wiki/Guard_(computer_science)
