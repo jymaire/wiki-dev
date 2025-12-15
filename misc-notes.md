@@ -7,3 +7,10 @@ Séparation command/query : une réponse ne devrait pas changer la réponse http
 Une fonction == une chose
 
 Ne donner en paramètre que ce dont on a besoin
+
+
+----
+
+Un "if" en début de fonction pour valider le code s'appelle une "guard claus"
+
+https://en.wikipedia.org/wiki/Guard_(computer_science)
