@@ -62,7 +62,15 @@ const mail = 'aa@aa'
 
 const total = {
   name,
-  mail
+  mail,
 }
 ```
 Ce code va me produire une variable `total` qui contient deux attributs. `name` qui a pour valeur 'aa' et `mail` qui a pour valeur 'aa@aa' 
+
+Équivalent de
+```
+const total = {
+  name: name,
+  mail: mail,
+}
+```
