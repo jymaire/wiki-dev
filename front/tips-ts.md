@@ -1,5 +1,7 @@
 ### Destructuring
 
+#### 1
+
 ```
 const obj1 = {
   prop1: '1',
@@ -22,3 +24,20 @@ const obj2 = {
 }
 
 ```
+
+#### 2
+avec `data` l'objet suivant :
+```
+{
+ 'jwt' : 'ey...'
+}`
+
+```
+
+si je fais : 
+
+``` o const { jwt: intercom_user_jwt } = data
+```
+
+
+partir d'un objet `data` q
