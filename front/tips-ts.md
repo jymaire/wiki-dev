@@ -36,8 +36,8 @@ avec `data` l'objet suivant :
 
 si je fais : 
 
-``` o const { jwt: intercom_user_jwt } = data
+```
+const { jwt: user_jwt } = data
 ```
 
-
-partir d'un objet `data` q
+À partir d'un objet `data`, je vais prendre l'attribut `jwt` et le stocker dans une variable `user_jwt`
