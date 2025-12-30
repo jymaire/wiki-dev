@@ -1,6 +1,6 @@
 ### Destructuring
 
-#### 1
+#### Tip 1
 
 ```
 const obj1 = {
@@ -25,7 +25,7 @@ const obj2 = {
 
 ```
 
-#### 2
+#### Tip 2
 avec `data` l'objet suivant :
 ```
 {
@@ -41,3 +41,28 @@ const { jwt: user_jwt } = data
 ```
 
 À partir d'un objet `data`, je vais prendre l'attribut `jwt` et le stocker dans une variable `user_jwt`
+
+#### Tip 3
+
+```
+const source = {
+  email: 'aa@aa.fr',
+  name : 'aza',
+}
+
+const { email, name } = source
+```
+Ce code va me produire deux variables `email` et `name` qui auront les valeurs de `source` (respectivement 'aa@aa.fr' et 'aza')
+
+#### Tip 4
+
+```
+const name = 'aa'
+const mail = 'aa@aa'
+
+const total = {
+  name,
+  mail
+}
+```
+Ce code va me produire une variable `total` qui contient deux attributs. `name` qui a pour valeur 'aa' et `mail` qui a pour valeur 'aa@aa' 
