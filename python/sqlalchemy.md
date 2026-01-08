@@ -49,6 +49,20 @@ select(a)
 .where(and_(a.id == 1, a.name == 'n'))
 ```
 
+------------------
+
+Pour avoir la liste des colonnes retournées par une requête non typée, on peut utiliser `.keys()` sur un élément de la liste. (mais sinon un .mappings() après le execute c'est encore mieux
+```
+results = db.session.execute(statement).all()  # only for debug purposes
+
+results[0].keys()
+
+# ou mieux
+results = db.session.execute(statement).mappings().all()  # only for debug purposes
+
+```
+
+
 ----------------
 
 `scalars().all()` pour récupérer des résultats propres
