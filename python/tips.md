@@ -65,3 +65,13 @@ get_name(1)
 ---------------
 
 On peut typer args et kwargs avec juste le type "contenu" https://adamj.eu/tech/2021/05/11/python-type-hints-args-and-kwargs/
+
+--------------
+
+Pour faire un mapper DTO -> Domain lorsqu'ils ont les mêmes noms d'attributs, on peut rajouter cette méthode dans la classe du  DTO
+
+```
+    @classmethod
+    def from_domain(cls, domain: DomainClass) -> DTOClass:
+        return cls(**{k: getattr(domain, k) for k in cls.__dataclass_fields__.keys()})
+```
