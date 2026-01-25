@@ -5,7 +5,7 @@ Si on créé une classe immuable (cf item 15) alors utiliser `equals` ou `==` es
 
 Item 3 :
 
-Une manière de faire un singleton est d'utiliser une enum avec une seule valeur.
+Une manière de faire un singleton est d'utiliser une enum avec une seule valeur. (c'est plus concis, ça gère la sérialisation, ça empêche les attaques par réflexion, c'est juste moins connu)
 
 Item 8 :
 
