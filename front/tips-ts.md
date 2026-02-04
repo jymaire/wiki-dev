@@ -1,3 +1,7 @@
+### Équivalent de Map en Java
+
+On peut utiliser le type `Record` en TS qui est l'équivalent d'une HashMap en Java https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type 
+
 ### Destructuring
 
 #### Tip 1
