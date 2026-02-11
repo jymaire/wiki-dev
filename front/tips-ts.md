@@ -78,3 +78,17 @@ const total = {
   mail: mail,
 }
 ```
+
+### Interfaces
+
+on peut rajouter des objets à une interface juste en la redéclarant
+```
+interface Point {
+  x: number
+}
+// puis plus loin
+interface Point {
+  y: number
+}
+// alors Point contient x et y
+``` 
