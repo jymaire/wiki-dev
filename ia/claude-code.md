@@ -2,6 +2,8 @@
 
 `/statusline Git branch. Model. Context.`
 
+Use hook to automatically trigger some command (test, lint) when certain tasks are done.
+
 
 ## Usage
 
@@ -16,3 +18,4 @@
 `/goal` give an expected result and a way to verify it. Claude does the rest.
 
 `claude agents` to see current agents running
+
