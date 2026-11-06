@@ -4,6 +4,8 @@
 
 Use hook to automatically trigger some command (test, lint) when certain tasks are done.
 
+In skills, we can add script or other doc next to the md file.
+
 
 ## Usage
 
