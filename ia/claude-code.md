@@ -14,3 +14,5 @@
 `/focus` to hide details, just prompt and result.
 
 `/goal` give an expected result and a way to verify it. Claude does the rest.
+
+`claude agents` to see current agents running
